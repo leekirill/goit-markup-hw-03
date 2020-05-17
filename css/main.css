@@ -1,0 +1,233 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --primary-color: #2196f3;
+  --title-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* header */
+
+.page-header {
+  background-color: var(--primary-background-color);
+}
+.page-header .list,
+.contact-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logo {
+  color: var(--primary-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--title-text-color);
+}
+
+.page-header .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.page-header .link.current {
+  color: var(--primary-color);
+}
+
+.page-header .link:hover,
+.page-header .link:focus {
+  color: var(--primary-color);
+}
+
+/* hero */
+
+.title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.button.primary {
+  color: var(--primary-background-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  background: #2196f3;
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin-left: 700px;
+  width: 140px;
+  height: 40px;
+}
+
+/* benefits */
+
+.benefits li {
+  list-style: none;
+}
+
+.benefits .title {
+  color: var(--primary-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.benefits .subtitle {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* about us */
+
+.about-us .list {
+  list-style: none;
+}
+
+.about-us .heading {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.about-us .title {
+  color: var(--primary-background-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+  width: 360px;
+  padding: 10px;
+}
+
+/* team */
+
+.team {
+  background: var(--secondary-background-color);
+}
+
+.team .heading {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team .list,
+.team .social-list {
+  list-style: none;
+}
+
+.team .name {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.team .subtitle {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* clients */
+
+.clients > .heading {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.clients .list {
+  list-style: none;
+}
+
+/* footer */
+
+.footer {
+  background: #2f303a;
+  color: #fff;
+}
+
+.footer .list {
+  list-style: none;
+}
+
+.footer .link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--primary-color);
+}
+
+.footer .subscribe {
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer .social-list {
+  list-style: none;
+}
+
+.logo-accent-footer {
+  color: #fff;
+}
