@@ -64,6 +64,7 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-left: 80px;
 }
 
 .nav-list > .list:not(:last-child) {
@@ -77,7 +78,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
-  padding-right: 86px;
+  padding: 0;
 }
 
 .logo-accent {
@@ -171,17 +172,18 @@ body {
 }
 
 .benefits .container {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 94px;
   margin-bottom: 94px;
+  justify-content: space-between;
+  width: 1200px;
 }
 
 .benefits .list {
   display: flex;
   margin: 0;
   padding: 0;
-  justify-content: space-between;
 }
 
 .benefits li {
@@ -195,6 +197,11 @@ body {
   padding-left: 106.34px;
   padding-right: 106.34px;
   border-radius: 4px;
+}
+
+.benefits .image:hover,
+.benefits .image:focus {
+  background-color: var(--primary-color);
 }
 
 .benefits .block:not(:last-child) {
@@ -228,15 +235,18 @@ body {
 
 /* about us */
 
+.about-us .container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
 .about-us .list {
   list-style: none;
   display: flex;
   margin-top: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
   margin-bottom: 94px;
   padding: 0;
-  justify-content: space-between;
 }
 
 .about-us .block:not(:last-child) {
@@ -366,8 +376,21 @@ body {
   color: #fff;
 }
 
+.footer .container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  height: 253px;
+}
+
+.footer .social-list {
+  display: flex;
+}
+
 .footer .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer .link {
