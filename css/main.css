@@ -32,13 +32,20 @@ body {
 
 .header {
   background-color: var(--primary-background-color);
-  outline: 2px solid tomato;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  height: 80px;
 }
 
 .header .container {
-  padding-left: 200px;
-  padding-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
+  justify-content: space-between;
+  width: 1200px;
 }
 
 .header .list,
@@ -46,6 +53,10 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.contact-list {
+  align-items: center;
 }
 
 .nav-list {
@@ -85,10 +96,35 @@ body {
 .header .link:hover,
 .header .link:focus {
   color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: 32px;
+}
+
+.header .link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 
 .contact-list {
   display: flex;
+}
+
+.contact-list .list:not(:first-child) {
+  margin-left: 30px;
+}
+
+.contact-list .list {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* hero */
