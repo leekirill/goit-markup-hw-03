@@ -96,7 +96,7 @@ body {
 .header .link.current {
   color: var(--primary-color);
   border-bottom: 3px solid var(--primary-color);
-  padding-bottom: 29px;
+  padding-bottom: 30px;
 }
 
 .header .link:hover,
@@ -431,27 +431,23 @@ body {
 
 .clients .list {
   display: flex;
+  justify-content: center;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .clients .brand {
-  border: 1px solid #afb1b8;
   margin-right: 30px;
-  border-radius: 4px;
-  width: 175px;
 }
 
-.clients .brand:hover,
-.clients .brand:focus {
-  border: 1px solid var(--primary-color);
+.clients .brand:last-child {
+  margin-right: 0px;
 }
 
 .clients .brand-icon {
   padding: 20px 63px;
 }
-
 /* footer */
 
 .footer {
