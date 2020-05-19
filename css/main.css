@@ -91,12 +91,19 @@ body {
 .header .link {
   color: var(--title-text-color);
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .header .link.current {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-color);
+
   border-bottom: 3px solid var(--primary-color);
-  padding-bottom: 30px;
 }
 
 .header .link:hover,
