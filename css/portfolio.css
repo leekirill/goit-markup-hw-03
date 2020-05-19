@@ -170,6 +170,7 @@ body {
   display: flex;
   padding: 0px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .portfolio.nav {
@@ -254,6 +255,10 @@ body {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   border-radius: 5px;
+}
+
+.portfolio .box:not(:nth-child(3n)) {
+  margin-right: 30px;
 }
 
 .portfolio .box:hover,
