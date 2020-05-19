@@ -526,10 +526,7 @@ body {
 }
 
 .footer .social-icon {
-  background-color: var(--secondary-text-color);
-  padding: 12px;
   margin-right: 12px;
-  border-radius: 100px;
 }
 
 .logo-accent-footer {
