@@ -154,7 +154,7 @@ body {
   color: transparent;
 }
 
-.portfolio .content {
+.portfolio .container {
   margin-left: auto;
   margin-right: auto;
   padding-top: 94px;
@@ -169,12 +169,14 @@ body {
   list-style: none;
   display: flex;
   padding: 0px;
+  justify-content: center;
 }
 
 .portfolio.nav {
   justify-content: center;
   padding: 0px;
   margin-bottom: 50px;
+  margin-top: 0px;
 }
 
 .portfolio .nav-button {
@@ -207,6 +209,10 @@ body {
 
 .portfolio .block {
   margin-right: 30px;
+}
+
+.portfolio .block:last-child {
+  margin-right: 0px;
 }
 
 .portfolio .image {

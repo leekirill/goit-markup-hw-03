@@ -202,16 +202,13 @@ body {
   color: transparent;
 }
 
-.benefits {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
 .benefits .container {
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
   width: 1170px;
+  padding-bottom: 94px;
+  padding-top: 94px;
   padding-left: 15px;
   padding-right: 15px;
 }
