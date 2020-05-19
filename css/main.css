@@ -45,7 +45,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: space-between;
   width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
@@ -59,7 +58,9 @@ body {
 }
 
 .contact-list {
+  display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .nav-list {
@@ -136,10 +137,6 @@ body {
 .header .link-contact:hover,
 .header .link-contact:focus {
   color: var(--primary-color);
-}
-
-.contact-list {
-  display: flex;
 }
 
 .contact-list .list:not(:first-child) {
