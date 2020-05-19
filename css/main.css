@@ -103,7 +103,7 @@ body {
 .header .link:focus {
   color: var(--primary-color);
   border-bottom: 3px solid var(--primary-color);
-  padding-bottom: 29px;
+  padding-bottom: 30px;
 }
 
 .header .link {
