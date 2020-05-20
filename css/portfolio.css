@@ -127,6 +127,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   margin-left: 10px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header .link-contact:hover,
@@ -216,7 +218,9 @@ body {
 }
 
 .portfolio .image {
+  display: block;
   width: 368px;
+  height: auto;
 }
 
 .portfolio .title {

@@ -127,6 +127,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   margin-left: 10px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header .link-contact:hover,
@@ -292,7 +294,8 @@ body {
 
 .about-us .image {
   display: block;
-  width: 370px;
+  max-width: 100%;
+  height: auto;
 }
 
 .about-us .heading {
@@ -341,7 +344,8 @@ body {
 
 .team .image {
   display: block;
-  width: 270px;
+  max-width: 100%;
+  height: auto;
 }
 
 .team .block {
