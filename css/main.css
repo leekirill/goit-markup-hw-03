@@ -82,7 +82,7 @@ body {
   color: var(--title-text-color);
 }
 
-.header .link {
+.header__link {
   color: var(--title-text-color);
   text-decoration: none;
   padding-top: 32px;
@@ -90,20 +90,25 @@ body {
   display: block;
 }
 
-.header .link.current {
-  display: block;
+.header__link--current {
+  color: var(--primary-color);
+  text-decoration: none;
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.header__link:hover,
+.header__link:focus {
   color: var(--primary-color);
 }
 
-.header .link:hover,
-.header .link:focus {
-  color: var(--primary-color);
-}
-
-.header .link {
+.header__link {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -112,7 +117,7 @@ body {
   color: var(--title-text-color);
 }
 
-.header .link-contact {
+.header__link-contact {
   text-decoration: none;
   font-family: Roboto;
   font-weight: 400;
@@ -125,8 +130,8 @@ body {
   padding-bottom: 32px;
 }
 
-.header .link-contact:hover,
-.header .link-contact:focus {
+.header__link-contact:hover,
+.header__link-contact:focus {
   color: var(--primary-color);
 }
 
